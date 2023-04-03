@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class PointController : MonoBehaviour
 {
+    /*
+        This sript is for placing points onto the generated map. It scans through the random map (or the standard map), checks if it is possible to
+        place a point (it uses dozen of raycasts shooting to surrounding of the point to check if it collides or not), then places the point accordingly.
+        
+        It also vaporizes a random point and respawns another point in certain time intervals.
+    */
 
     [SerializeField] GameObject prefab;
 
