@@ -5,6 +5,10 @@ using UnityEngine;
 public class Rectangle : MonoBehaviour
 {
 
+    /*
+        This scripts handles collision of rectangles with points or other rectangles, it also handles it collapsing mechanic
+    */
+    
     private bool isMoving;
     private bool isColliding;
     private float collapseSpeed;
