@@ -5,6 +5,9 @@ using TMPro;
 
 public class LeaderboardController : MonoBehaviour
 {
+    /*
+        This script is for a simple leaderboard ranking in the game.
+    */
     [SerializeField]
     private TextMeshProUGUI[] nameTexts;
     [SerializeField]
