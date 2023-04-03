@@ -5,6 +5,11 @@ using UnityEngine;
 public class MapGenerator : MonoBehaviour
 {
 
+    /*
+        This script is for random generation of a map. It gets rectangles one by one and tries to place them onto map, it tries a random place in map, and checks if
+        it collides with anything, if it does, it tries another place, if it doesn't collide, then it goes on with the other rectangles.
+    */
+    
     [SerializeField]
     private List<GameObject> rectangles;
 
