@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RectangleController : MonoBehaviour
 {
+    /*
+        This scripts controls rectangles so that they collapse in certain intervals
+    */
 
     [SerializeField]
     private List<GameObject> rectangles;
