@@ -5,6 +5,11 @@ using TMPro;
 
 public class ClickController : MonoBehaviour
 {
+    /*
+        In this script, it basically checks mouse input and shoots raycast onto the screen, then, it checks if it collided with a point. It immidately shoots
+        another ray and gets all rectangles that collided with the point. Than it calculates the smallest rectangle in the hit array (smallest rectangle is the
+        innermost rectangle), and finally checks if its color same with the point or not. Then it notifies the game controller to update point.
+    */
     [SerializeField]
     private LayerMask layerHit;
 
