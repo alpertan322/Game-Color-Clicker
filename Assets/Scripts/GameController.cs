@@ -6,6 +6,10 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    /*
+        This sript is responsible for the menu direction, initialization and the overall difficulty updating of the game. It controls all of the scripts
+        that are responsible for stuff in game.
+    */ 
 
     [SerializeField]
     private RectangleController rectController;
